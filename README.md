@@ -1,14 +1,14 @@
 # Tripleten web_project_homeland
 
-## -DESCRIPCIÓN Y FUNCIONALIDAD
+## DESCRIPCIÓN Y FUNCIONALIDAD
 
 Es una página hecha con el propósito de mostrar los lugares mas importantes de la madre patria, fue diseñanada para que sea totalmente responsiva y adaptable en computadoras así como para dispositivos celulares, pensada para poder interactuar con el usuario de una manera agradable y eficiente. Para este proyecto se utilizado el **HTML5**, así como **CSS**, se han empleado mediaqueries para permitir que la página se vea tanto en dispositivos celulares como en computadores. Entre las resoluciones que se tuvieron en cuenta están las de **1100px, 820px, 768px, 417px, 375px y 320px**, en cualquiera de estas pantallas la página se adaptará perfectamente.
 
-## -CARACTERÍSTICAS
+## CARACTERÍSTICAS
 
 La página consta de un bloque principal con el nombre de **page** y dentro de este bloque están anidados los bloques **header, intro, photo-grid, places, cover y footer** respectivamente, dentro del bloque places, se encuentran 5 bloques place los cuales son los que contienen el título del lugar, una breve descripción del mismo, así como los botones cuyo código está anidado en un enlace con la clase **buttom** el cual es para comprar esa imagen como un NFT, al entrar en cualquiera de esto enlaces se abrirá una pesaña nueva la cual los llevará a la pagina de OpenSea para comprar un NFT, No es exactamente el de la página pero si es un ejemplo, tamtien se realizó un bloque **cover** en donde se crea un Overlay para que al pasar el cursor la imagen de oscuresca permitiendo poder ver el texto de una manera más clara, así mismo hay un enlace para poder acceder a comprar esa imagen como un NFT, este enlace los llevará a OpenSea para comprar un NFT muy agradable, naturalmente no es el mismo de la página pero es un buen ejemplo, el siguiente bloque es el **footer** en donde se puede ver el copyright y el nombre del Desarrollador de la página.
 
-## -TÉCNICAS Y TECNOLOGÍAS UTILIZADAS
+## TÉCNICAS Y TECNOLOGÍAS UTILIZADAS
 
 1. Para el desarrollo de esta página se utilizó la metodología BEN para separar los bloques de sus elementos y los modificadore, también la misma metodología para organizar el sistema de archivos con el que se trabajó.
 2. Se separaron los archivos de estilos en bloques y se importaron con _@import()_ al index.css
@@ -17,7 +17,7 @@ La página consta de un bloque principal con el nombre de **page** y dentro de e
 5. Para las animaciones se utilizaron los _@keyframes_ y para que se adapte a los diferentes dispositivos se utilizaron _mediaqueries_ para las resoluciones **1100px, 820px, 768px, 414px, 375px, 320px** se adaptará correctamente.
 6. Para que los enlaces resalten se utilizo el :hover y se le dió una animacíon para que sea más interactiva.
 
-## -ENLACES
+## ENLACES
 
 [TRIPLETEN] ("Tripleten" https://tripleten.com/es-ecu/)
 
