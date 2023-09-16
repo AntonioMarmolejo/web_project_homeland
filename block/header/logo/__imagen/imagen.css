@@ -1,0 +1,4 @@
+.logo_imagen:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+}

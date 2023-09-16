@@ -1,0 +1,16 @@
+.place__title {
+  display: flex;
+  color: var(--color-textos-principal);
+  grid-area: title;
+  margin: 0;
+  width: 50%;
+  height: auto;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  align-items: self-end;
+}
+
+.place__title-salto {
+  width: 60%;
+}

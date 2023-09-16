@@ -1,0 +1,607 @@
+@media screen and (max-width: 1100px) {
+  .header {
+    width: 100%;
+  }
+
+  .lead {
+    width: 100%;
+  }
+  .lead__title {
+    width: 90%;
+    font-size: 96px;
+    line-height: 100px;
+  }
+  .lead__subtitle {
+    width: 90%;
+  }
+  .intro {
+    width: 90%;
+  }
+  .intro__text {
+    width: 100%;
+  }
+  .intro__text_cita {
+    width: 100%;
+  }
+  .photo-grid {
+    width: 90%;
+    height: 1500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .photo-grid__item {
+    width: 100%;
+    height: 100%;
+  }
+  .places {
+    width: 90%;
+    margin: auto;
+  }
+  .place {
+    width: 100%;
+  }
+  .place__title {
+    line-height: 72px;
+    font-size: 76px;
+  }
+  .cover {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .lead__title {
+    width: 95%;
+  }
+  .lead__subtitle {
+    width: 90%;
+  }
+  .intro {
+    width: 95%;
+  }
+  .photo-grid {
+    width: 95%;
+  }
+  .places {
+    width: 95%;
+  }
+  .place__website {
+    right: 80px;
+    top: 96px;
+  }
+  .place__website_detalle {
+    margin-top: 5px;
+  }
+  .place__title-salto {
+    width: 83%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+
+  .lead {
+    width: 100%;
+  }
+  .lead__title {
+    width: 95%;
+    font-size: 96px;
+    line-height: 100px;
+  }
+  .lead__subtitle {
+    width: 95%;
+  }
+  .intro {
+    width: 95%;
+  }
+  .intro__text {
+    width: 100%;
+    text-align: justify;
+  }
+  .intro__text_cita {
+    width: 100%;
+  }
+  .photo-grid {
+    display: grid;
+    width: 95%;
+    height: 1120px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-bottom: 88px;
+  }
+  .photo-grid__item {
+    object-fit: cover;
+  }
+  .places {
+    width: 95%;
+    margin: auto;
+    row-gap: 31px;
+  }
+  .place {
+    width: 100%;
+    grid-gap: 46px 28px;
+  }
+  .place__title {
+    line-height: 46px;
+    font-size: 42px;
+    width: 60%;
+  }
+  .place__website {
+    width: 44%;
+    right: 44px;
+    top: 24px;
+  }
+  .place__imagen {
+    object-fit: cover;
+  }
+  .texts_detalle {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+  .cover {
+    width: 100%;
+  }
+  .cover__background {
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 414px) and (max-width: 896px) {
+  .lead__title {
+    width: 93%;
+    font-size: 60px;
+    line-height: 44px;
+    margin: 50px auto 0;
+  }
+  .lead__subtitle {
+    width: 95%;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 60px auto 40px;
+  }
+  .intro {
+    margin: 44px auto 0;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 900;
+  }
+  .intro__text {
+    font-size: 29px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .intro__text-detall {
+    margin-top: 9px;
+  }
+  .intro__text_detalle {
+    font-size: 21px;
+    line-height: 26.08px;
+    margin-top: 0px;
+  }
+  .photo-grid {
+    margin-top: 32px;
+    margin-bottom: 80px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    height: 2425px;
+  }
+  .places {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    row-gap: 16px;
+  }
+  .place {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "image"
+      "image"
+      "paragraphs"
+      "paragraphs"
+      "paragraphs"
+      "buttom";
+    grid-gap: 0px 40px;
+    position: relative;
+    justify-items: center;
+  }
+  .place__title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 35px;
+    padding-left: 2%;
+  }
+  .place__imagen {
+    grid-area: image;
+    width: 100%;
+    height: 320px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 164px;
+  }
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 89%;
+    height: 92px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    position: absolute;
+    right: 9%;
+    top: 72px;
+  }
+  .place__website_greccie-detalle {
+    margin-top: -8px;
+  }
+  .place__website_detalle-eeuu {
+    margin-top: 16px;
+  }
+  .place__artist {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .place__artist_detall {
+    margin-left: -21px;
+    font-size: 23px;
+  }
+  .place__website_muramavya {
+    margin-top: -20px;
+  }
+  .place__website_pedernales {
+    margin-top: -7px;
+  }
+  .place__url-heading {
+    margin-left: -21px;
+  }
+  .buttom {
+    height: 48px;
+    margin-top: 7px;
+  }
+  .texts_detalle {
+    width: 94%;
+    font-size: 23px;
+  }
+  .place__paragraph {
+    justify-items: center;
+  }
+  .cover__background {
+    height: 254px;
+  }
+  .grup9__title {
+    margin-top: 5%;
+    font-size: 32px;
+    margin-bottom: 0%;
+  }
+  .grup9__subtitle {
+    width: 218px;
+    font-size: 14px;
+  }
+  .cover__overlay {
+    height: 254px;
+  }
+
+  .frame6 {
+    margin: 16px auto 0;
+  }
+  .cover__grup9 {
+    height: 34.3%;
+  }
+  .cover {
+    height: 254px;
+    margin: 64px auto;
+  }
+}
+@media screen and (max-width: 375px) and (max-width: 667px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 50px auto 0;
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 60px auto 40px;
+  }
+  .intro {
+    margin: 44px auto 0;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 900;
+  }
+  .intro__text {
+    font-size: 29px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .intro__text-detall {
+    margin-top: 9px;
+  }
+  .intro__text_detalle {
+    font-size: 21px;
+    line-height: 26.08px;
+    margin-top: 0px;
+  }
+  .photo-grid {
+    margin-top: 32px;
+    margin-bottom: 80px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    height: 2204px;
+  }
+  .places {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    row-gap: 16px;
+  }
+  .place {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "image"
+      "image"
+      "paragraphs"
+      "paragraphs"
+      "paragraphs"
+      "buttom";
+    grid-gap: 0px 40px;
+    position: relative;
+    justify-items: center;
+  }
+  .place__title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 35px;
+    padding-left: 2%;
+  }
+  .place__imagen {
+    grid-area: image;
+    width: 100%;
+    height: 320px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 164px;
+  }
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 89%;
+    height: 92px;
+    padding-left: 20px;
+    padding-bottom: 7px;
+    position: absolute;
+    right: 9%;
+    top: 72px;
+  }
+  .place__website_greccie-detalle {
+    margin-top: -8px;
+  }
+  .place__website_detalle-eeuu {
+    margin-top: 16px;
+  }
+  .place__artist {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .place__artist_detall {
+    margin-left: -21px;
+    font-size: 23px;
+  }
+  .place__website_muramavya {
+    margin-top: 28px;
+  }
+  .place__website_pedernales {
+    margin-top: 31px;
+  }
+  .place__url-heading {
+    margin-left: -21px;
+  }
+  .buttom {
+    height: 48px;
+    margin-top: 7px;
+  }
+  .texts_detalle {
+    width: 94%;
+    font-size: 23px;
+  }
+  .place__paragraph {
+    justify-items: center;
+  }
+  .cover__background {
+    height: 254px;
+  }
+  .grup9__title {
+    margin-top: 5%;
+    font-size: 32px;
+    margin-bottom: 0%;
+  }
+  .grup9__subtitle {
+    width: 218px;
+    font-size: 14px;
+  }
+  .cover__overlay {
+    height: 254px;
+  }
+
+  .frame6 {
+    margin: 16px auto 0;
+  }
+  .cover__grup9 {
+    height: 34.3%;
+  }
+  .cover {
+    height: 254px;
+    margin: 64px auto;
+  }
+}
+@media screen and (max-width: 320px) and (max-width: 768px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin: 50px auto 0;
+  }
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 60px auto 40px;
+  }
+  .intro {
+    margin: 44px auto 0;
+  }
+  .intro__title {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 900;
+  }
+  .intro__text {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+  }
+  .intro__text-detall {
+    margin-top: 9px;
+  }
+  .intro__text_detalle {
+    font-size: 16px;
+    line-height: 26.08px;
+    margin-top: 0px;
+  }
+  .photo-grid {
+    margin-top: 32px;
+    margin-bottom: 80px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 12px;
+    height: 2204px;
+  }
+  .places {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    row-gap: 16px;
+  }
+  .place {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "image"
+      "image"
+      "paragraphs"
+      "paragraphs"
+      "paragraphs"
+      "buttom";
+    grid-gap: 0px 40px;
+    position: relative;
+    justify-items: center;
+  }
+  .place__title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 35px;
+    padding-left: 1%;
+  }
+  .place__imagen {
+    grid-area: image;
+    width: 100%;
+    height: 320px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    margin-top: 164px;
+  }
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 95%;
+    height: 92px;
+    padding-left: 21px;
+    padding-bottom: 7px;
+    position: absolute;
+    right: 3%;
+    top: 72px;
+  }
+  .place__website_greccie-datalle {
+    margin-top: 7px;
+  }
+  .place__website_detalle-eeuu {
+    margin-top: 16px;
+  }
+  .place__artist {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .place__artist_detall {
+    margin-left: -21px;
+    font-size: 20px;
+  }
+  .place__website_muramavya {
+    margin-top: 28px;
+  }
+  .place__website_pedernales {
+    margin-top: 31px;
+  }
+  .place__url-heading {
+    margin-left: -21px;
+  }
+  .buttom {
+    width: 100%;
+    height: 48px;
+    margin-top: 7px;
+  }
+  .buttom__paragraph {
+    font-size: 16px;
+  }
+  .texts_detalle {
+    width: 94%;
+    font-size: 16px;
+  }
+  .place__paragraph {
+    justify-items: center;
+    width: 100%;
+  }
+  .cover__background {
+    height: 254px;
+  }
+  .grup9__title {
+    margin-top: 5%;
+    font-size: 32px;
+    margin-bottom: 0%;
+  }
+  .grup9__subtitle {
+    width: 218px;
+    font-size: 14px;
+  }
+  .cover__overlay {
+    height: 254px;
+  }
+  .frame6 {
+    margin: 16px auto 0;
+  }
+  .cover__grup9 {
+    height: 34.3%;
+  }
+  .cover {
+    height: 254px;
+    margin: 64px auto;
+  }
+}

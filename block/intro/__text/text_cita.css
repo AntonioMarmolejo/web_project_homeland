@@ -1,0 +1,10 @@
+.intro__text_cita {
+  margin-top: -30px;
+  width: 70%;
+  height: 100%;
+  color: var(--color-textos-principal);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}

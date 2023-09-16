@@ -1,0 +1,13 @@
+.intro__title {
+  color: var(--color-textos-principal);
+  width: 100%;
+  height: 100%;
+  font-family: "inter", sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 58px;
+  margin-top: 0;
+}
+.intro__text-detall {
+  margin-top: 40px;
+}

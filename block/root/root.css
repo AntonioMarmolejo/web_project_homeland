@@ -1,0 +1,40 @@
+:root {
+  --color-fondo-principal: #2a2c2f;
+  --color-textos-principal: #fff;
+  --color-secundario-rectanculos: #000;
+  --color-botones-nft: #0278fe;
+  --color-bordes-botones: #0650a5;
+  --color-enlaces-artistas: #aaa;
+
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* div,
+ul,
+h1,
+h2,
+h3,
+h4,
+section,
+img,
+header,
+p,
+span,
+a,
+table,
+th,
+td,
+tr,
+ol,
+li,
+iframe,
+button,
+footer {
+  border: 1px solid red;
+} */
+
+body {
+  margin: 0;
+}

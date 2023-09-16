@@ -1,0 +1,8 @@
+.lead {
+  color: var(--color-textos-principal);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}

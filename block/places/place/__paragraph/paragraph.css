@@ -1,0 +1,12 @@
+.place__paragraph {
+  display: grid;
+  color: var(--color-textos-principal);
+  grid-area: paragraphs;
+  width: 100%;
+  height: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.34px;
+  grid-row-gap: 20px;
+  align-content: baseline;
+}

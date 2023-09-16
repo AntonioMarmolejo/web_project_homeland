@@ -1,0 +1,17 @@
+.frame6 {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  align-items: center;
+  width: 193px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  background-color: var(--color-botones-nft);
+  text-decoration: none;
+  margin: 32px auto 0;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+.frame6:hover {
+  animation: bordeado 1s forwards;
+}

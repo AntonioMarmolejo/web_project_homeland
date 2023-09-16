@@ -1,0 +1,14 @@
+.place {
+  display: grid;
+  width: 96%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "title title"
+    "image paragraphs"
+    "image paragraphs"
+    "buttom paragraphs"
+    ".  paragraphs";
+  grid-gap: 48px 40px;
+  position: relative;
+}

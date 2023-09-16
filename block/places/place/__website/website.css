@@ -1,0 +1,11 @@
+.place__website {
+  display: grid;
+  width: 40%;
+  height: 45px;
+  padding-left: 20px;
+  padding-bottom: 7px;
+  align-content: center;
+  position: absolute;
+  right: 105px;
+  top: 103px;
+}

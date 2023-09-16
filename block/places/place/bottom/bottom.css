@@ -1,0 +1,26 @@
+@keyframes bordeado {
+  0% {
+    border: 2px solid var(--color-bordes-botones);
+    background-color: var(--color-botones-nft);
+  }
+  100% {
+    border: 2px solid var(--color-botones-nft);
+    background-color: var(--color-bordes-botones);
+    transform: scale(1.04);
+  }
+}
+.buttom {
+  grid-area: buttom;
+  width: 355px;
+  height: 100%;
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  background-color: var(--color-botones-nft);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.buttom:hover {
+  animation: bordeado 1s forwards;
+}

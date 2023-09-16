@@ -1,0 +1,8 @@
+.place__url-heading {
+  color: var(--color-enlaces-artistas);
+  width: 58px;
+  height: 15px;
+  font-size: 12px;
+  line-height: 14.52px;
+  font-weight: 400;
+}

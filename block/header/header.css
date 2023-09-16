@@ -1,0 +1,11 @@
+.header {
+  display: grid;
+  padding-top: 34px;
+  width: 75%;
+  margin: auto;
+}
+
+.lead__imagen-detall {
+  border-radius: 4px;
+  width: 100%;
+}
