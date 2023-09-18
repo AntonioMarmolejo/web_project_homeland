@@ -656,9 +656,6 @@
     height: 254px;
     margin: 64px auto;
   }
-  .cover__background {
-    width: 100%;
-  }
 }
 @media screen and (max-width: 412px) and (max-width: 914px) {
   .lead__title {
