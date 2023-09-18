@@ -1,5 +1,5 @@
 .place__paragraph {
-  display: grid;
+  display: flex;
   color: var(--color-textos-principal);
   grid-area: paragraphs;
   width: 100%;
@@ -9,4 +9,5 @@
   line-height: 29.34px;
   grid-row-gap: 20px;
   align-content: baseline;
+  flex-wrap: wrap;
 }

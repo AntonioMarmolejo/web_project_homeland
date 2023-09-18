@@ -1,6 +1,7 @@
 .cover__background {
-  width: 100%;
+  width: 95%;
   height: 740px;
-  z-index: 0;
-  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  border-radius: 4px;
 }

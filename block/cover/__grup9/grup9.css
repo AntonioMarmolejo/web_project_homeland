@@ -1,9 +1,7 @@
 .cover__grup9 {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-.cover__grup9:hover {
-  animation: opacidad 1s forwards;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 3;
+  cursor: pointer;
 }
