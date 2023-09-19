@@ -11,7 +11,7 @@
   font-weight: 100;
 }
 
-div,
+/* div,
 ul,
 h1,
 h2,
@@ -33,7 +33,7 @@ iframe,
 button,
 footer {
   border: 1px solid red;
-}
+} */
 
 body {
   margin: 0;
